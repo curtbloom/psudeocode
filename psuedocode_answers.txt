@@ -1,0 +1,40 @@
+Why do programmers use psuedocode?
+
+Developers use psuedocode to brainstorm what code should do before they actually begin to code their program.
+
+If you run psuedocode on your computer what will happen?
+
+psuedocode is meant for humans to read so it will not actually run on your computer.
+
+
+1.  
+```
+    INPUT two numbers
+    IF first number is greater than second number
+      print first number
+    ELSE
+      print second number
+```
+
+2.
+```
+  INPUT first number
+  CREATE for loop to increment numbers ending with second number
+  PRINT result
+```
+3.
+```
+  INPUT entry
+  SEARCH phonebook for entry
+  PRINT found entry
+```
+  4.
+```
+      function searchPhoneBook(entry) {
+        for(i=0; i< entry.length; i++) {
+          if (entry[i] === entry) {
+            console.log("Found " + entry)
+          }
+        }
+  }
+```
